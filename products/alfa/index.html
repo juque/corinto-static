@@ -18,7 +18,9 @@
   <div class="col-pics">
     <!-- Esta foto es una cortesía de https://unsplash.com/@danielacuevas -->
     <picture>
-    <img srcset="alfa-380.jpg 1x, alfa-800.jpg 2x" alt="Foto del producto alfa" />
+      <source media="(max-width: 799px)" srcset="alfa-380.jpg" alt="Foto del producto alfa" />
+      <source media="(max-width: 800px)" srcset="alfa-380.jpg" alt="Foto del producto alfa" />
+      <img srcset="alfa-800.jpg" alt="Foto del producto alfa" />
     </picture>
 
   </div>
